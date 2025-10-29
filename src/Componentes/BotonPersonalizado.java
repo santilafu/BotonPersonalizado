@@ -19,7 +19,7 @@ public class BotonPersonalizado extends JButton {
     public BotonPersonalizado(String texto) {
 
         super(texto); // Llamamos al constructor de la clase padre JButton con el texto del botón
-        setFont(new Font("Arial", Font.BOLD, 18));
+        setFont(new Font("DialogInput", Font.BOLD, 18));
         setForeground(Color.WHITE); // Color del texto
         setBackground(colorBase); // Color base del botón
         setFocusPainted(false); // Sin borde de enfoque al hacer clic
