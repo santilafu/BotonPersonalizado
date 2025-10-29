@@ -11,9 +11,9 @@ import java.awt.event.MouseEvent;
 // Creamos la clase Componentes.BotonPersonalizado que extiende JButton para personalizar su apariencia y comportamiento
 public class BotonPersonalizado extends JButton {
 
-    private Color colorBase = new Color(30, 144, 255); // Color azul personalizado
-    private Color colorHover = new Color(65, 105, 225); // Color azul más oscuro para el hover
-    private Color colorPresionado = new Color(25, 25, 112); // Color azul aún más oscuro para el estado presionado
+    private Color colorBase = new Color(114, 255, 138); // Color en estado normal
+    private Color colorHover = new Color(248, 142, 142); // Color azul más oscuro para el hover
+    private Color colorPresionado = new Color(50, 227, 174); // Color azul aún más oscuro para el estado presionado
 
     // Constructor del botón
     public BotonPersonalizado(String texto) {
